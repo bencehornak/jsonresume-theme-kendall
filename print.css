@@ -7,9 +7,9 @@ a[href]:after {
   content: none !important;
 }
 
-#photo{
+/* #photo{
   display: none;
-}
+} */
 
 .box {
   margin-bottom: -10px;
