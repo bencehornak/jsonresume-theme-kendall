@@ -43,7 +43,7 @@ function render(resumeObject) {
                         s: '200',
                         r: 'pg',
                         d: 'mm'
-                    });
+                    }, true);
     }
     if (resumeObject.basics.picture || resumeObject.basics.gravatar) {
         resumeObject.photo = resumeObject.basics.picture ? resumeObject.basics.picture : resumeObject.basics.gravatar;
